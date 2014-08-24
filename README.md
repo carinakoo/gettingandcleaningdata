@@ -24,4 +24,4 @@ The data are then subsetted to include only the measurements on the mean and sta
 Finally, the data is recast to provide the mean for each subject, activity, and measurement variable. Each row in the table provides, for each unique combination of subject and activity: subject identifier, activity label, and calculated means across all records of each of the 66 "mean()" and "std()" variables. 
 
 ### Output
-The script outputs a "run_analysis()" function which when called will process the data, assuming the data is found in the current working directory.  The function then outputs the tidy data set to a file "tidy.txt".
+The script outputs a "run_analysis()" function which when called will process the data, assuming the data is found in the current working directory.  The function outputs the tidy dataset to a variable "tidy" and also writes the dataset to a file "tidy.txt".
